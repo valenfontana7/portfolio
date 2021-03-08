@@ -33,7 +33,7 @@ const Github = ({ user, statusCode }) => {
   );
 };
 
-export async function getServerSideProps() {
+export async function getInitialProps() {
   const res = await fetch("https://api.github.com/users/valenfontana7");
   const data = await res.json();
   const statusCode = res.status > 200 ? res.status : false;
