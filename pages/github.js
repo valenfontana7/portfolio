@@ -5,23 +5,22 @@ const Github = ({ user, statusCode }) => {
     return <Error statusCode={statusCode} />;
   }
   return (
-    user && (
       <Layout footer={false}>
         <div className="row">
           <div className="col-md-4 offset-md-4">
             <div className="card card-body text-center">
-              <h1>{user.name}</h1>
-              <img src={user.avatar_url} alt="" />
-              <p>{user.bio}</p>
+              <h1>{user && user.name}</h1>
+              <img src={user && user.avatar_url} alt="" />
+              <p>{user && user.bio}</p>
               <a
-                href={user.blog}
+                href={user && user.blog}
                 target="_blank"
                 className="btn btn-outline-secondary my-2"
               >
                 My blog
               </a>
               <a
-                href={user.html_url}
+                href={user &&user.html_url}
                 target="_blank"
                 className="btn btn-outline-secondary"
               >
