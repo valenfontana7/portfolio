@@ -8,17 +8,19 @@ const Post = () => {
     (post) => post.title === router.query.title
   )[0];
   return (
-    <Layout footer={false} title={currentPost.title}>
-      <div className="text-center">
-        <img
-          className="img-fluid"
-          src={`/${currentPost.imageURL}`}
-          alt={currentPost.title}
-          style={{ width: "50%" }}
-        />
-        <p>{currentPost.content}</p>
-      </div>
-    </Layout>
+    currentPost && (
+      <Layout footer={false} title={currentPost.title}>
+        <div className="text-center">
+          <img
+            className="img-fluid"
+            src={`/${currentPost.imageURL}`}
+            alt={currentPost.title}
+            style={{ width: "50%" }}
+          />
+          <p>{currentPost.content}</p>
+        </div>
+      </Layout>
+    )
   );
 };
 
