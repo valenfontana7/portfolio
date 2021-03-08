@@ -38,7 +38,7 @@ export const experiences = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsum nam eos, aperiam perspiciatis repudiandae id vitae, ipsa voluptates similique doloribus magnam. Delectus officia vel aperiam provident excepturi blanditiis nemo reprehenderit repudiandae totam, autem fuga voluptatibus, iste eum possimus. Voluptatem numquam veritatis ea laboriosam eaque iusto repellat maxime, officia corrupti, adipisci, rem unde asperiores sed! Delectus commodi perspiciatis dolorem qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsum nam eos, aperiam perspiciatis repudiandae id vitae, ipsa voluptates similique doloribus magnam. Delectus officia vel aperiam provident excepturi blanditiis nemo reprehenderit repudiandae totam, autem fuga voluptatibus, iste eum possimus. oluptatem numquam veritatis ea laboriosam eaque iusto repellat maxime, officia corrupti, adipisci, rem unde asperiores sed! Delectus commodi perspiciatis dolorem qui?",
     from: "Nov 2020",
-    to: "Mar 2021",
+    to: "Present",
   },
   {
     title: "E-commerce non-paid practices at Henry",
