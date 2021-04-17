@@ -36,32 +36,47 @@ export const experiences = [
   {
     title: "Jr Software Engineer at Globallogic",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsum nam eos, aperiam perspiciatis repudiandae id vitae, ipsa voluptates similique doloribus magnam. Delectus officia vel aperiam provident excepturi blanditiis nemo reprehenderit repudiandae totam, autem fuga voluptatibus, iste eum possimus. Voluptatem numquam veritatis ea laboriosam eaque iusto repellat maxime, officia corrupti, adipisci, rem unde asperiores sed! Delectus commodi perspiciatis dolorem qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsum nam eos, aperiam perspiciatis repudiandae id vitae, ipsa voluptates similique doloribus magnam. Delectus officia vel aperiam provident excepturi blanditiis nemo reprehenderit repudiandae totam, autem fuga voluptatibus, iste eum possimus. oluptatem numquam veritatis ea laboriosam eaque iusto repellat maxime, officia corrupti, adipisci, rem unde asperiores sed! Delectus commodi perspiciatis dolorem qui?",
+      "- Software design and development. / - Interface setup and testing. / - Troubleshooting.",
     from: "Nov 2020",
     to: "Present",
   },
   {
-    title: "E-commerce non-paid practices at Henry",
+    title: "E-commerce (non-paid) practices at Henry",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit, officia corrupti, adipiscifdfdfsfsdis dolorem sfsfs qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsum nam eos, aperiam perspiciatis repudiandae id vitae, ipsa voluptates similique doloribus magnam. Delectus officia vel aperiam provident excepturi blanditiis nemo reprehenderit repudiandae totam, autem fuga voluptatibus, iste eum possimus. oluptatem numquam veritatis ea laboriosam eaque iusto repellat maxime, officia corrupti, adipisci, rem unde asperiores sed! Delectus commodi perspiciatis dolorem qui?",
+      "With some colleagues from the Bootcamp, we developed a footwear Ecommerce, which allows the user to see products, register, login, add to cart, give the product a review, upload files, finish the purchase, and other functionalities. // The project was carried out with the following technologies: HTML, CSS, JavaScript, ReactJS, Redux, NodeJS, Sequelize ORM, ExpressJS and PostgreSQL.",
     from: "Sep 2020",
     to: "Oct 2020",
+  },
+  {
+    title: "Tutor (non-paid) practices at Henry",
+    description:
+      "I supported and helped new students in learning the topics we studied in the Bootcamp.",
+    from: "Sep 2020",
+    to: "Nov 2020",
   },
 ];
 export const projects = [
   {
     name: "Meraki Ecommerce",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, beatae.",
+    description: "Natural Cosmetics shop.",
     image: "meraki.png",
+    url: "https://merakisanpedro.herokuapp.com/",
+    github: "https://github.com/valenfontana7/meraki",
   },
   {
-    name: "App de notas",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, beatae.",
+    name: "Notes App",
+    description: "Create, edit and delete shared notes.",
     image: "app_de_notas.png",
+    url: "https://app-de-notas.vercel.app/",
+    github: "https://github.com/valenfontana7/app-de-tareas",
   },
-  {},
+  {
+    name: "Google Clone",
+    description: "Google official page clone.",
+    image: "google_clone.png",
+    url: "https://google-clone-weld-psi.vercel.app/",
+    github: "https://github.com/valenfontana7/google_clone",
+  },
 ];
 export const posts = [
   {

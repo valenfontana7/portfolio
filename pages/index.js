@@ -14,12 +14,11 @@ const Index = () => (
             </div>
             <div className="col-md-8">
               <h1>Valentin Fontana</h1>
-              <h3>Software Engineer</h3>
+              <h3>Software Developer</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-                unde ex architecto minus sit magni magnam ut, blanditiis maiores
-                aliquam assumenda quia ad. Eius ratione accusantium sint sequi,
-                illum ipsa!
+                Software developer with experience in testing, design,
+                architecture on web application development from back-end to
+                front-end.
               </p>
               <a href="/hireme">Hire Me</a>
             </div>
@@ -69,7 +68,17 @@ const Index = () => (
                   <h5>
                     {from} {to ? `- ${to}` : "- current"}
                   </h5>
-                  <p>{description}</p>
+                  <p>
+                    {description &&
+                      (description.includes("/")
+                        ? description.split("/").map((el) => (
+                            <div>
+                              {el}
+                              <br />
+                            </div>
+                          ))
+                        : description)}
+                  </p>
                 </li>
               ))}
             </ul>
@@ -89,20 +98,33 @@ const Index = () => (
               <div className="col-md-12 my-2">
                 <h1 className="text-center text-light">Portfolio</h1>
               </div>
-              {projects.map(({ name, description, image }, index) => (
-                <div className="col-md-4 p-2" key={index}>
-                  <div className="card h-100">
-                    <div className="overflow">
-                      <img src={`/${image}`} alt="" className="card-img-top" />
-                    </div>
-                    <div className="card-body">
-                      <h3>{name}</h3>
-                      <p>{description}</p>
-                      <a href="#!">Know More</a>
+              {projects.map(
+                ({ name, description, image, url, github }, index) => (
+                  <div className="col-md-4 p-2" key={index}>
+                    <div className="card h-100">
+                      <div className="overflow">
+                        <img
+                          src={`/${image}`}
+                          alt=""
+                          className="card-img-top"
+                        />
+                      </div>
+                      <div className="card-body">
+                        <h3>{name}</h3>
+                        <p>{description}</p>
+                        <div className="project-btns">
+                          <a href={github} target="_blank">
+                            <img src="github.png" alt="" />
+                          </a>
+                          <a href={url} target="_blank">
+                            <img src="web.png" alt="" />
+                          </a>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                )
+              )}
 
               <div className="col-md-12 mt-4">
                 <div className="text-center">

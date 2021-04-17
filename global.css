@@ -24,3 +24,17 @@ div#__next > div {
   border-top-color: #ffbb00;
   border-left-color: #ffbb00;
 }
+.project-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.project-btns a {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid black;
+}
+.project-btns a img {
+  width: 40px;
+}

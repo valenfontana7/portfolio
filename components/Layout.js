@@ -17,7 +17,6 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
 
   useEffect(() => {
     const handleRouteChange = (url) => {
-      // console.log(url);
       nprogress.start();
     };
     router.events.on("routeChangeStart", handleRouteChange);
@@ -30,7 +29,7 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
     <div
       className={classnames({
         "bg-secondary": dark,
-        "bg-warning": !dark,
+        "bg-light": !dark,
       })}
     >
       <Navbar bg="dark" variant="dark" expand="lg">
