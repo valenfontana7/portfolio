@@ -27,8 +27,8 @@ const Index = () => (
                 front-end.
               </h5>
               <hr />
-              <div className="contact-info">
-                <h4 className="mx-auto">Contact Me</h4>
+              <div className="contact-info col-md-6">
+                <h2 className="mx-auto">Contact Me</h2>
                 <br />
                 <div className="contact-details">
                   <h5>
@@ -57,11 +57,11 @@ const Index = () => (
         <div className="card bg-light radius animate__animated animate__fadeInLeft">
           <div className="card-body">
             <h1 className="mb-4">Skills</h1>
-
+            <hr />
             {/* Skill Progress  */}
             {skills.map(({ skill }, i) => (
               <div className="py-3" key={i}>
-                <h5 className="ml-5">{skill}</h5>
+                <h4 className="ml-5">{skill}</h4>
                 {/* <div className="progress ">
                   <div
                     className="progress-bar"
@@ -83,7 +83,8 @@ const Index = () => (
         <div className="card bg-light radius animate__animated animate__fadeInRight">
           <div className="card-body">
             <h1>Experience</h1>
-
+            <hr />
+            <br />
             <ul>
               {/* List Item Experience */}
               {experiences.map(({ title, from, to, description }, index) => (
@@ -106,9 +107,8 @@ const Index = () => (
                 </li>
               ))}
             </ul>
-            <Link href="/hireme">
-              <a className="btn btn-light">Know More</a>
-            </Link>
+            <br />
+            <br />
           </div>
         </div>
       </div>
@@ -121,6 +121,7 @@ const Index = () => (
             <div className="row">
               <div className="col-md-12 my-2">
                 <h1 className="text-center text-light">Portfolio</h1>
+                <br />
               </div>
               {projects.map(
                 ({ name, description, image, url, github }, index) => (

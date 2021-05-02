@@ -5,6 +5,11 @@ div#__next,
 div#__next > div {
   height: 100%;
 }
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .overflow {
   height: 50%;
@@ -39,7 +44,7 @@ div#__next > div {
   width: 40px;
 }
 .contact-info {
-  margin: 40px;
+  margin: 10px;
   background: white;
   color: black;
   padding: 25px;
