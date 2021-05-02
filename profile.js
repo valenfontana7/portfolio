@@ -1,35 +1,27 @@
 export const skills = [
   {
     skill: "HTML",
-    percentage: 100,
   },
   {
     skill: "CSS",
-    percentage: 100,
   },
   {
     skill: "Javascript",
-    percentage: 100,
   },
   {
     skill: "React",
-    percentage: 80,
   },
   {
     skill: "NodeJS",
-    percentage: 80,
   },
   {
     skill: "Ruby",
-    percentage: 80,
   },
   {
     skill: "PostgreSQL",
-    percentage: 90,
   },
   {
     skill: "MongoDB",
-    percentage: 80,
   },
 ];
 export const experiences = [
@@ -77,6 +69,13 @@ export const projects = [
     url: "https://google-clone-weld-psi.vercel.app/",
     github: "https://github.com/valenfontana7/google_clone",
   },
+  {
+    name: "Rick & Morty App",
+    description: "Rick & Morty application.",
+    image: "rick-n-morty.png",
+    url: "https://rick-n-morty-app.vercel.app/",
+    github: "https://github.com/valenfontana7/rick_and_morty_app",
+  },
 ];
 export const posts = [
   {
@@ -92,3 +91,8 @@ export const posts = [
     imageURL: "html.jpeg",
   },
 ];
+export const contact = {
+  phone: "+543329511319",
+  email: "valenfontana7@gmail.com",
+  location: "Ciudad Autónoma de Buenos Aires, Argentina",
+};

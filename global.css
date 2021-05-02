@@ -38,3 +38,21 @@ div#__next > div {
 .project-btns a img {
   width: 40px;
 }
+.contact-info {
+  margin: 40px;
+  background: white;
+  color: black;
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.radius {
+  border-radius: 10px;
+}
