@@ -39,7 +39,7 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="/blog">Blog</Nav.Link>
+            {/* <Nav.Link href="/blog">Blog</Nav.Link> */}
             <Nav.Link href="/github">GitHub</Nav.Link>
           </Nav>
         </Navbar.Collapse>
