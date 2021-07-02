@@ -76,6 +76,13 @@ export const projects = [
     url: "https://rick-n-morty-app.vercel.app/",
     github: "https://github.com/valenfontana7/rick_and_morty_app",
   },
+  {
+    name: "Harry Potter App",
+    description: "Harry Potter fanpage",
+    image: "hp_fanpage.png",
+    url: "https://harrypotter-app.vercel.app/",
+    github: "https://github.com/valenfontana7/harry_potter_fanpage",
+  },
 ];
 export const posts = [
   {
