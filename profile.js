@@ -23,28 +23,46 @@ export const skills = [
   {
     skill: "MongoDB",
   },
+  {
+    skill: "Azure CI/CD",
+  },
+  {
+    skill: "GIT",
+  },
 ];
 export const experiences = [
   {
     title: "Jr Software Engineer at Globallogic",
     description:
-      "- Software design and development. / - Interface setup and testing. / - Troubleshooting.",
+      "Project for an important American Fintech in which I take part: //- Software Design and Development. /- Interface Setup and Testing. /- Troubleshooting. //Stack we use: Ruby, NodeJS and ReactJS. //We work in an Azure environment with Continuous Integration and Continuous Delivery, using Agile Methodologies.",
     from: "Nov 2020",
-    to: "Present",
+    to: (
+      <>
+        - Present (<b>9</b> months)
+      </>
+    ),
   },
   {
-    title: "E-commerce (non-paid) practices at Henry",
+    title: "E-commerce practices",
     description:
       "With some colleagues from the Bootcamp, we developed a footwear Ecommerce, which allows the user to see products, register, login, add to cart, give the product a review, upload files, finish the purchase, and other functionalities. // The project was carried out with the following technologies: HTML, CSS, JavaScript, ReactJS, Redux, NodeJS, Sequelize ORM, ExpressJS and PostgreSQL.",
     from: "Sep 2020",
-    to: "Oct 2020",
+    to: (
+      <>
+        - Oct 2020 (<b>1</b> month)
+      </>
+    ),
   },
   {
-    title: "Tutor (non-paid) practices at Henry",
+    title: "Tutor",
     description:
-      "I supported and helped new students in learning the topics we studied in the Bootcamp.",
+      "I supported and helped new students on learning the topics we studied in the Bootcamp.",
     from: "Sep 2020",
-    to: "Nov 2020",
+    to: (
+      <>
+        - Nov 2020 (<b>3</b> months)
+      </>
+    ),
   },
 ];
 export const projects = [
@@ -101,5 +119,5 @@ export const posts = [
 export const contact = {
   phone: "+543329511319",
   email: "valenfontana7@gmail.com",
-  location: "Ciudad Autónoma de Buenos Aires, Argentina",
+  location: "Buenos Aires, Argentina",
 };

@@ -91,7 +91,14 @@ const Index = () => (
                 <li key={index}>
                   <h3>{title}</h3>
                   <h5>
-                    {from} {to ? `- ${to}` : "- current"}
+                    {`${from} `}
+                    {typeof to === "string"
+                      ? to
+                        ? `- ${to}`
+                        : "- current"
+                      : to
+                      ? to
+                      : "- current"}
                   </h5>
                   <p>
                     {description &&
