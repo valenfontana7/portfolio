@@ -32,7 +32,7 @@ export const skills = [
 ];
 export const experiences = [
   {
-    title: "Jr Software Engineer at Globallogic",
+    title: "Software Engineer at Globallogic",
     description:
       "Project for an important American Fintech in which I take part: //- Software Design and Development. /- Interface Setup and Testing. /- Troubleshooting. //Stack we use: Ruby, NodeJS and ReactJS. //We work in an Azure environment with Continuous Integration and Continuous Delivery, using Agile Methodologies.",
     from: "Nov 2020",
