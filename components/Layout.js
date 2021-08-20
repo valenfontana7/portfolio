@@ -40,7 +40,9 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             {/* <Nav.Link href="/blog">Blog</Nav.Link> */}
-            <Nav.Link href="/github">GitHub</Nav.Link>
+            <Nav.Link href="/github">
+              <img className="github-logo" src="/github.svg" alt="" />
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -1,33 +1,55 @@
 export const skills = [
   {
     skill: "HTML",
+    icon: "html-5.svg",
   },
   {
     skill: "CSS",
+    icon: "css-3.svg",
+  },
+  {
+    skill: "SASS",
+    icon: "sass.svg",
   },
   {
     skill: "Javascript",
+    icon: "js.svg",
   },
   {
     skill: "React",
+    icon: "react.svg",
   },
   {
     skill: "NodeJS",
+    icon: "nodejs.svg",
+  },
+  {
+    skill: "NestJS",
+    icon: "nestjs.svg",
   },
   {
     skill: "Ruby",
+    icon: "ruby.svg",
   },
   {
     skill: "PostgreSQL",
+    icon: "postgresql.svg",
   },
   {
     skill: "MongoDB",
+    icon: "mongodb.svg",
   },
   {
-    skill: "Azure CI/CD",
+    skill: "Azure DevOps",
+    icon: "azure.svg",
   },
   {
     skill: "GIT",
+    icon: "git.svg",
+  },
+  {
+    skill: "Docker",
+    icon: "docker.svg",
   },
 ];
 export const experiences = [
@@ -43,7 +65,18 @@ export const experiences = [
     ),
   },
   {
-    title: "E-commerce practices",
+    title: "HENRY app (practices)",
+    description:
+      "I took part in the development of an educative portal, which allows the users to login, see their classes and contents and also chat with another users. // The project was carried out with the following technologies: HTML, CSS, JavaScript, React, React Native, Redux, NodeJS, GraphQL and PostgreSQL.",
+    from: "Oct 2020",
+    to: (
+      <>
+        - Nov 2020 (<b>1</b> month)
+      </>
+    ),
+  },
+  {
+    title: "E-commerce (practices)",
     description:
       "With some colleagues from the Bootcamp, we developed a footwear Ecommerce, which allows the user to see products, register, login, add to cart, give the product a review, upload files, finish the purchase, and other functionalities. // The project was carried out with the following technologies: HTML, CSS, JavaScript, ReactJS, Redux, NodeJS, Sequelize ORM, ExpressJS and PostgreSQL.",
     from: "Sep 2020",
@@ -56,7 +89,7 @@ export const experiences = [
   {
     title: "Tutor",
     description:
-      "I supported and helped new students on learning the topics we studied in the Bootcamp.",
+      "I supported and helped new students on learning the topics we studied in the Bootcamp. After their classes, we reviewed the concepts and helped them to understand the exercises.",
     from: "Sep 2020",
     to: (
       <>
@@ -104,7 +137,7 @@ export const projects = [
 ];
 export const posts = [
   {
-    title: "ReactJS",
+    title: "React",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur a accusantium, magnam corrupti dignissimos quos, labore maiores, eos nesciunt quae ad fuga ratione. Quia ipsum fuga animi distinctio cum delectus?",
     imageURL: "react.png",

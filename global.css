@@ -61,3 +61,21 @@ body {
 .radius {
   border-radius: 10px;
 }
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 1.9% 0%;
+}
+.skill img {
+  width: 30px;
+}
+.skill h4 {
+  margin: 0;
+}
+.github-logo {
+  background: rgb(236, 236, 236);
+  border-radius: 50%;
+  box-shadow: 0.3px 0.3px 4px 1px white;
+}

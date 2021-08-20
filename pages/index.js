@@ -59,9 +59,10 @@ const Index = () => (
             <h1 className="mb-4">Skills</h1>
             <hr />
             {/* Skill Progress  */}
-            {skills.map(({ skill }, i) => (
-              <div className="py-3" key={i}>
+            {skills.map(({ skill, icon }, i) => (
+              <div className="py-3 skill" key={i}>
                 <h4 className="ml-5">{skill}</h4>
+                <img src={`/${icon}`} alt="" />
                 {/* <div className="progress ">
                   <div
                     className="progress-bar"
@@ -114,7 +115,6 @@ const Index = () => (
                 </li>
               ))}
             </ul>
-            <br />
             <br />
           </div>
         </div>
