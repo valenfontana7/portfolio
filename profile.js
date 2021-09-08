@@ -60,7 +60,7 @@ export const experiences = [
     from: "Nov 2020",
     to: (
       <>
-        - Present (<b>9</b> months)
+        - Present (<b>10</b> months)
       </>
     ),
   },
@@ -128,8 +128,8 @@ export const projects = [
     github: "https://github.com/valenfontana7/rick_and_morty_app",
   },
   {
-    name: "Harry Potter App",
-    description: "Harry Potter fanpage",
+    name: "Harry Potter Wiki",
+    description: "Harry Potter Wiki",
     image: "hp_fanpage.png",
     url: "https://harrypotter-app.vercel.app/",
     github: "https://github.com/valenfontana7/harry_potter_fanpage",

@@ -1,5 +1,4 @@
 import Layout from "../components/Layout";
-import Link from "next/link";
 import { skills, experiences, projects, contact } from "../profile";
 
 const Index = () => (
@@ -63,16 +62,6 @@ const Index = () => (
               <div className="py-3 skill" key={i}>
                 <h4 className="ml-5">{skill}</h4>
                 <img src={`/${icon}`} alt="" />
-                {/* <div className="progress ">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    style={{ width: `${percentage}%` }}
-                    aria-valuenow="50"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div> */}
               </div>
             ))}
           </div>
@@ -104,8 +93,8 @@ const Index = () => (
                   <p>
                     {description &&
                       (description.includes("/")
-                        ? description.split("/").map((el) => (
-                            <div>
+                        ? description.split("/").map((el, i) => (
+                            <div key={i}>
                               {el}
                               <br />
                             </div>
@@ -159,11 +148,7 @@ const Index = () => (
               )}
 
               <div className="col-md-12 mt-4">
-                <div className="text-center">
-                  {/* <Link href="/portfolio">
-                    <a className="btn btn-outline-light">More Projects</a>
-                  </Link> */}
-                </div>
+                <div className="text-center"></div>
               </div>
             </div>
           </div>
