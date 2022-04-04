@@ -56,11 +56,11 @@ export const experiences = [
   {
     title: 'Software Engineer at Globallogic',
     description:
-      'Project for an important American Fintech in which I take part: //- Software Design and Development. /- Interface Setup and Testing. /- Troubleshooting. //Stack we use: Ruby, NodeJS and ReactJS. //We work in an Azure environment with Continuous Integration and Continuous Delivery, using Agile Methodologies.',
+      'Project for an American Fintech in which we developed systems to improve the implementation process of new and existing banks. //These systems consisted in web applications that are used to speed up requirements extraction from the customer, through a defined flow, answering questions, and a feature catalog as well.//Stack we used: Ruby, NodeJS and ReactJS. //We worked in an Azure environment with Continuous Integration and Continuous Delivery, using Agile Methodologies.',
     from: 'Nov 2020',
     to: (
       <>
-        - Present (<b>1</b> year)
+        - Feb 2022 (<b>1</b> year, <b>3</b> months)
       </>
     ),
   },
@@ -100,11 +100,18 @@ export const experiences = [
 ];
 export const projects = [
   {
-    name: 'Meraki Ecommerce',
-    description: 'Natural Cosmetics shop.',
-    image: 'meraki.png',
-    url: 'https://merakisanpedro.herokuapp.com/',
-    github: 'https://github.com/valenfontana7/meraki',
+    name: 'Liga de Fútbol de Río Cuarto',
+    description: 'Web realizada para la liga de fútbol de Río Cuarto, Córdoba',
+    image: 'liga.png',
+    url: 'http://ligafutbolriocuarto.com/',
+    // github: 'https://github.com/valenfontana7/harry_potter_fanpage',
+  },
+  {
+    name: 'Rick & Morty App',
+    description: 'Rick & Morty application.',
+    image: 'rick-n-morty.png',
+    url: 'https://rick-n-morty-app.vercel.app/',
+    github: 'https://github.com/valenfontana7/rick_and_morty_app',
   },
   {
     name: 'Notes App',
@@ -121,18 +128,18 @@ export const projects = [
     github: 'https://github.com/valenfontana7/google_clone',
   },
   {
-    name: 'Rick & Morty App',
-    description: 'Rick & Morty application.',
-    image: 'rick-n-morty.png',
-    url: 'https://rick-n-morty-app.vercel.app/',
-    github: 'https://github.com/valenfontana7/rick_and_morty_app',
-  },
-  {
     name: 'Harry Potter Wiki',
     description: 'Harry Potter Wiki',
     image: 'hp_fanpage.png',
     url: 'https://harrypotter-app.vercel.app/',
     github: 'https://github.com/valenfontana7/harry_potter_fanpage',
+  },
+  {
+    name: 'Meraki Ecommerce',
+    description: 'Natural Cosmetics shop.',
+    image: 'meraki.png',
+    url: 'https://merakisanpedro.herokuapp.com/',
+    github: 'https://github.com/valenfontana7/meraki',
   },
 ];
 export const posts = [
